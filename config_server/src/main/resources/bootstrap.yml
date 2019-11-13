@@ -5,5 +5,5 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/niuxiaofei961012/o2o.git
+          uri: https://github.com/niuxiaofei961012/o2oEatOrder.git
           search-paths: config-repo
