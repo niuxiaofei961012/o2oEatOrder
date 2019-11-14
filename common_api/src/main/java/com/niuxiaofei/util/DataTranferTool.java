@@ -1,7 +1,8 @@
 package com.niuxiaofei.util;
 
-import com.bw.pojo.ProductInfo;
-import com.bw.vo.FoodVO;
+
+import com.niuxiaofei.pojo.ProductInfo;
+import com.niuxiaofei.vo.FoodVO;
 
 public class DataTranferTool {
 
