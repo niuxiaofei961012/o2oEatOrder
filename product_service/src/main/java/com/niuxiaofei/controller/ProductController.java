@@ -45,8 +45,8 @@ public class ProductController {
                 buyerProductInfoVO.setName(productCategory.getCategoryName());
                 buyerProductInfoVO.setFoods(foodVOList);
             }
-        }
 
+        }
 
         resultList.setCode(CodeMsg.SUCCESS.getCode());
         resultList.setMsg(CodeMsg.SUCCESS.getMsg());
