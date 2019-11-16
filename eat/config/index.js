@@ -18,7 +18,7 @@ module.exports = {
 		port: 9000,
         	sellUrl: 'http://success.sell.com',
         	openidUrl: 'http://success.natapp1.cc/sell/wechat/authorize',
-        	wechatPayUrl: 'http://127.0.0.1'
+        	wechatPayUrl: 'http://127.0.0.1:10010'
 	},
 	dev: {
 		env: require('./dev.env'),
@@ -32,8 +32,8 @@ module.exports = {
 		// In our experience, they generally work as expected,
 		// just be aware of this issue when enabling this option.
 		cssSourceMap: false,
-		sellUrl: 'http://127.0.0.1',
-		openidUrl: 'http://127.0.0.1',
-		wechatPayUrl: 'http://127.0.0.1'
+		sellUrl: 'http://127.0.0.1:10010',
+		openidUrl: 'http://127.0.0.1:10010',
+		wechatPayUrl: 'http://127.0.0.1:10010'
 	}
 }

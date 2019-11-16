@@ -11,6 +11,7 @@ public class ProductCategory {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+
     private Integer categoryId;
 
     /** 类目名字. */
